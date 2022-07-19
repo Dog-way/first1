@@ -1,0 +1,112 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+nav{
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    background-color: aliceblue;
+    top: 10px;
+    box-shadow: 1px 10px 15px green;
+    opacity: 75%;
+}
+nav ul li{
+    /*color: #f6a99c;*/
+    color:black;
+    text-decoration:none;
+    font-size: 14px;
+    
+}
+nav ul li a:hover {
+    color: #f6a99c;
+    text-decoration: underline;
+}
+header{
+    background-image: url(img5.jpg);
+    height: 500px;
+    background-size: cover;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+header{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: aqua;
+
+}
+
+div h1 {
+    
+    color: aquamarine;
+  
+
+    
+
+}
+button{
+    color:gray;
+    padding: 10px;
+    padding-left: 30px ;
+    padding-right: 30px;
+    border-radius: 20px 20px 20px 20px;
+    border: none;
+    background-color:   #5fff00;
+    background: linear-gradient(180deg, rgba(246,169,156,1),rgba(237,127,109,1));
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+.bgpots{
+    
+    background-image: url(banner12.jpg);
+    height: 500px;
+    background-size: cover;
+
+}
+.btn{
+color: beige;
+padding: 10px;
+padding-left: 30px;
+padding-right: 30px;
+border-radius: 20px, 20px, 20px, 20px;
+border: none;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+;
+}
+.bgplate {
+background-image: url("plate.jpg");
+background-repeat:no-repeat ;
+padding-top: 12px;
+padding-bottom: 12px;
+padding-left: 17px;
+font-size: 17px;
+width: 170px;
+margin: auto;
+
+}
+.panelBig{
+width: 60%;
+margin-right: 1%;
+background-image: url("pic.jpg");
+height: 409px;
+background-position: center;
+background-size: cover;
+}
+.panelsmall{
+
+width: 39%;
+margin-right: 1%;
+background-image: url("pics.jpg");
+height: 409px;
+background-position: center;
+background-size: cover;
+}
+
+
